@@ -22,6 +22,7 @@ class MainActivity : AppCompatActivity() {
                 Toast.makeText(this,"Please enter your name!", Toast.LENGTH_LONG).show()
             }else{
                 var intent = Intent(this, QuizQuestionsActivity::class.java)
+                intent.putExtra(Constants.USER_NAME, etName.text.toString())
                 startActivity(intent)
                 finish() //Finish the main activity -> Users cannot comeback
             }

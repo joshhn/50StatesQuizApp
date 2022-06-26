@@ -2,6 +2,11 @@ package com.joshhn.quizapp
 
 object Constants {
 
+    const val USER_NAME : String = "user_name"
+    const val TOTAL_QUESTIONS: String = "total_questions"
+    const val CORRECT_ANSWERS: String = "correct_answers"
+
+
     fun getQuestions(): ArrayList<Question>{
         val questionsList = ArrayList<Question>()
 
@@ -10,7 +15,7 @@ object Constants {
             1, "What is the name of this state?",
             R.drawable.ak,
             "Kansas","Alaska","Hawaii","Arkansas",
-            1
+            2
         )
 
         questionsList.add(que1)
@@ -20,7 +25,7 @@ object Constants {
             2, "What is the name of this state?",
             R.drawable.al,
             "Alabama","Arkansas","Mississippi","Georgia",
-            0
+            1
         )
 
         questionsList.add(que2)
@@ -30,7 +35,7 @@ object Constants {
             3, "What is the name of this state?",
             R.drawable.ar,
             "Arizona","Utah","New Mexico","Arkansas",
-            3
+            4
         )
 
         questionsList.add(que3)
@@ -40,7 +45,7 @@ object Constants {
             4, "What is the name of this state?",
             R.drawable.az,
             "Arizona","Texas","Wyoming","Nevada",
-            0
+            1
         )
 
         questionsList.add(que4)
@@ -50,7 +55,7 @@ object Constants {
             5, "What is the name of this state?",
             R.drawable.ca,
             "Nevada","Oregon","California","Hawaii",
-            2
+            3
         )
 
         questionsList.add(que5)
@@ -60,7 +65,7 @@ object Constants {
             6, "What is the name of this state?",
             R.drawable.co,
             "New Mexico","Arizona","Louisiana","Colorado",
-            3
+            4
         )
 
         questionsList.add(que6)
@@ -70,7 +75,7 @@ object Constants {
             7, "What is the name of this state?",
             R.drawable.ct,
             "Connecticut","New York","New Jersey","New Hampshire",
-            0
+            1
         )
 
         questionsList.add(que7)
@@ -80,7 +85,7 @@ object Constants {
             8, "What is the name of this state?",
             R.drawable.de,
             "Rhode Island","Massachusetts","Pennsylvania","Delaware",
-            3
+            4
         )
 
         questionsList.add(que8)
@@ -90,7 +95,7 @@ object Constants {
             9, "What is the name of this state?",
             R.drawable.fl,
             "Georgia","Florida","Hawaii","Washington",
-            1
+            2
         )
 
         questionsList.add(que9)
@@ -100,7 +105,7 @@ object Constants {
             10, "What is the name of this state?",
             R.drawable.ga,
             "Louisiana","Georgia","Alabama","Arkansas",
-            1
+            2
         )
 
         questionsList.add(que10)
@@ -110,7 +115,7 @@ object Constants {
             11, "What is the name of this state?",
             R.drawable.hi,
             "Wisconsin","Oregon","Hawaii","Alaska",
-            2
+            3
         )
 
         questionsList.add(que11)
@@ -120,7 +125,7 @@ object Constants {
             12, "What is the name of this state?",
             R.drawable.ia,
             "Illinois","Iowa","Indiana","Ohio",
-            1
+            2
         )
 
         questionsList.add(que12)
@@ -130,7 +135,7 @@ object Constants {
             13, "What is the name of this state?",
             R.drawable.id,
             "Indiana","Oregon","Tennessee","Idaho",
-            3
+            4
         )
 
         questionsList.add(que13)
@@ -140,7 +145,7 @@ object Constants {
             14, "What is the name of this state?",
             R.drawable.il,
             "Iowa","Ohio","Illinois","Kentucky",
-            2
+            3
         )
 
         questionsList.add(que14)
@@ -150,7 +155,7 @@ object Constants {
             15, "What is the name of this state?",
             R.drawable.`in`,
             "Indiana","Ohio","Michigan","Minnesota",
-            0
+            1
         )
 
         questionsList.add(que15)
@@ -160,7 +165,7 @@ object Constants {
             16, "What is the name of this state?",
             R.drawable.ks,
             "Kansas","Alaska","Hawaii","Arkansas",
-            0
+            1
         )
 
         questionsList.add(que16)
@@ -170,7 +175,7 @@ object Constants {
             17, "What is the name of this state?",
             R.drawable.ky,
             "Tennessee","Kentucky","Virginia","West Virginia",
-            1
+            2
         )
 
         questionsList.add(que17)
@@ -180,7 +185,7 @@ object Constants {
             18, "What is the name of this state?",
             R.drawable.la,
             "Louisiana","Alabama","Texas","Arizona",
-            0
+            1
         )
 
         questionsList.add(que18)
@@ -190,7 +195,7 @@ object Constants {
             19, "What is the name of this state?",
             R.drawable.ma,
             "Massachusetts","Pennsylvania","New York","Vermont",
-            0
+            1
         )
 
         questionsList.add(que19)
@@ -200,7 +205,7 @@ object Constants {
             20, "What is the name of this state?",
             R.drawable.md,
             "Montana","Michigan","Maryland","New Jersey",
-            2
+            3
         )
 
         questionsList.add(que20)
@@ -210,7 +215,7 @@ object Constants {
             21, "What is the name of this state?",
             R.drawable.me,
             "New Hampshire","Maine","Pennsylvania","Vermont",
-            1
+            2
         )
 
         questionsList.add(que21)
@@ -220,7 +225,7 @@ object Constants {
             22, "What is the name of this state?",
             R.drawable.mi,
             "Michigan","Wisconsin","North Dakota","Minnesota",
-            0
+            1
         )
 
         questionsList.add(que22)
@@ -230,7 +235,7 @@ object Constants {
             23, "What is the name of this state?",
             R.drawable.mn,
             "Minnesota","Wisconsin","North Dakota","Ohio",
-            0
+            1
         )
 
         questionsList.add(que23)
@@ -240,7 +245,7 @@ object Constants {
             24, "What is the name of this state?",
             R.drawable.mo,
             "Montana","Missouri","Oklahoma","Mississippi",
-            1
+            2
         )
 
         questionsList.add(que24)
@@ -250,7 +255,7 @@ object Constants {
             25, "What is the name of this state?",
             R.drawable.ms,
             "Mississippi","New Mexico","Nevada","Virginia",
-            0
+            1
         )
 
         questionsList.add(que25)
@@ -260,7 +265,7 @@ object Constants {
             26, "What is the name of this state?",
             R.drawable.wa,
             "Washington","Oregon","Idaho","California",
-            0
+            1
         )
 
         questionsList.add(que26)
@@ -270,7 +275,7 @@ object Constants {
             27, "What is the name of this state?",
             R.drawable.va,
             "West Virginia","Virginia","Ohio","Tennessee",
-            1
+            2
         )
 
         questionsList.add(que27)
@@ -280,7 +285,7 @@ object Constants {
             28, "What is the name of this state?",
             R.drawable.ut,
             "Utah","New Mexico","Nevada","Wyoming",
-            0
+            1
         )
 
         questionsList.add(que28)
@@ -290,7 +295,7 @@ object Constants {
             29, "What is the name of this state?",
             R.drawable.wv,
             "Washington","Virginia","West Virginia","Kentucky",
-            2
+            3
         )
 
         questionsList.add(que29)
@@ -300,7 +305,7 @@ object Constants {
             30, "What is the name of this state?",
             R.drawable.wy,
             "Wyoming","Louisiana","Montana","Idaho",
-            0
+            1
         )
 
         questionsList.add(que30)
@@ -310,7 +315,7 @@ object Constants {
             31, "What is the name of this state?",
             R.drawable.wi,
             "Michigan","Wisconsin","North Dakota","Iowa",
-            1
+            2
         )
 
         questionsList.add(que31)
@@ -320,7 +325,7 @@ object Constants {
             32, "What is the name of this state?",
             R.drawable.vt,
             "Vermont","Maine","Pennsylvania","New Hampshire",
-            0
+            1
         )
 
         questionsList.add(que32)
@@ -330,7 +335,7 @@ object Constants {
             33, "What is the name of this state?",
             R.drawable.tx,
             "Texas","Louisiana","New Mexico","Arizona",
-            0
+            1
         )
 
         questionsList.add(que33)
@@ -340,7 +345,7 @@ object Constants {
             34, "What is the name of this state?",
             R.drawable.tn,
             "Kentucky","Tennessee","Ohio","Indiana",
-            1
+            2
         )
 
         questionsList.add(que34)
@@ -350,7 +355,7 @@ object Constants {
             35, "What is the name of this state?",
             R.drawable.sd,
             "South Dakota","Wisconsin","Oregon","Idaho",
-            0
+            1
         )
 
         questionsList.add(que35)
@@ -360,7 +365,7 @@ object Constants {
             36, "What is the name of this state?",
             R.drawable.sc,
             "North Carolina","Virginia","South Carolina","New Jersey",
-            2
+            3
         )
 
         questionsList.add(que36)
@@ -370,7 +375,7 @@ object Constants {
             37, "What is the name of this state?",
             R.drawable.ri,
             "Rhode Island","Vermont","New Jersey","Maryland",
-            0
+            1
         )
 
         questionsList.add(que37)
@@ -380,7 +385,7 @@ object Constants {
             38, "What is the name of this state?",
             R.drawable.pa,
             "Pennsylvania","Maine","New York","New Jersey",
-            0
+            1
         )
 
         questionsList.add(que38)
@@ -390,7 +395,7 @@ object Constants {
             39, "What is the name of this state?",
             R.drawable.or,
             "California","Washington","Oregon","Minnesota",
-            2
+            3
         )
 
         questionsList.add(que39)
@@ -400,7 +405,7 @@ object Constants {
             40, "What is the name of this state?",
             R.drawable.ok,
             "Kansas","Oklahoma","Arkansas","Missouri",
-            1
+            2
         )
 
         questionsList.add(que40)
@@ -410,7 +415,7 @@ object Constants {
             41, "What is the name of this state?",
             R.drawable.oh,
             "Kentucky","Indiana","Ohio","Illinois",
-            2
+            3
         )
 
         questionsList.add(que41)
@@ -420,7 +425,7 @@ object Constants {
             42, "What is the name of this state?",
             R.drawable.ny,
             "Pennsylvania","Massachusetts","New York","Vermont",
-            2
+            3
         )
 
         questionsList.add(que42)
@@ -430,7 +435,7 @@ object Constants {
             43, "What is the name of this state?",
             R.drawable.nv,
             "Nevada","Wyoming","Utah","California",
-            0
+            1
         )
 
         questionsList.add(que43)
@@ -440,7 +445,7 @@ object Constants {
             44, "What is the name of this state?",
             R.drawable.nm,
             "Colorado","Utah","New Mexico","Arizona",
-            2
+            3
         )
 
         questionsList.add(que44)
@@ -450,7 +455,7 @@ object Constants {
             45, "What is the name of this state?",
             R.drawable.nj,
             "Maryland","Vermont","New Jersey","Pennsylvania",
-            2
+            3
         )
 
         questionsList.add(que45)
@@ -460,7 +465,7 @@ object Constants {
             46, "What is the name of this state?",
             R.drawable.nh,
             "Maine","New Hampshire","New York","New Jersey",
-            1
+            2
         )
 
         questionsList.add(que46)
@@ -470,7 +475,7 @@ object Constants {
             47, "What is the name of this state?",
             R.drawable.ne,
             "Wyoming","Kansas","South Dakota","Nebraska",
-            3
+            4
         )
 
         questionsList.add(que47)
@@ -480,7 +485,7 @@ object Constants {
             48, "What is the name of this state?",
             R.drawable.nd,
             "Nevada","North Dakota","South Dakota","Wyoming",
-            1
+            2
         )
 
         questionsList.add(que48)
@@ -490,7 +495,7 @@ object Constants {
             49, "What is the name of this state?",
             R.drawable.nc,
             "Virginia","North Carolina","North Dakota","South Carolina",
-            1
+            2
         )
 
         questionsList.add(que49)
@@ -500,7 +505,7 @@ object Constants {
             50, "What is the name of this state?",
             R.drawable.mt,
             "Montana","Oregon","Idaho","Wyoming",
-            0
+            1
         )
 
         questionsList.add(que50)
